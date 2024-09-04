@@ -1,0 +1,208 @@
+@media only screen and (max-width: 600px) {
+    .nav-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        position: sticky;
+    }
+
+    .navbar {
+        width: 95%;
+        height: 10vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .input-container {
+        display: flex;
+        width: 53vw;
+        height: 2.25rem;
+        padding: .5rem;
+        border-radius: 5px;
+    }
+
+    .input-class {
+        width: 80%;
+        border-radius: 5px 0 0 5px;
+        outline: none;
+        border: none;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        border-left: 1px solid black;
+        text-align: center;
+    }
+
+    .input-icon {
+        width: 13%;
+        background-color: #c54d29;
+        border-radius: 0 5px 5px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        border-width: 1px solid black;
+    }
+
+    .input-icon img {
+        width: 3.5vw;
+        height: 4vh;
+    }
+
+    .login-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .login-container img {
+        width: 3.5vw;
+        height: 4vh;
+    }
+
+    .login-icon {
+        background-color: #c54d29;
+        border-radius: 50%;
+        margin-right: 5px;
+    }
+
+    .navheader {
+        color: #d54215;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .login {
+        display: flex;
+        align-items: center;
+    }
+
+    .login span {
+        font-family: var(--rabbit-font-family, var(--font-2, inherit));
+        font-weight: 200;
+    }
+
+    /* hover */
+    .input-icon:hover {
+        background-color: #a74122;
+    }
+
+    .navbar div:hover {
+        cursor: pointer;
+    }
+
+    .input-container:hover {
+        cursor: none;
+    }
+
+    .login:hover {
+        text-decoration: underline;
+        text-decoration-color: #d54215;
+    }
+
+    /* header */
+    .header-container {
+        background-color: #114388;
+        width: 100%;
+        height: 20vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header-box {
+        width: 70%;
+        height: 19vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .header-title {
+        font-family: CopperPot, Helvetica, sans-serif;
+        font-size: 1.125rem;
+        text-align: center;
+        color: white;
+    }
+
+    .header-title strong {
+        font-weight: 700;
+        color: #fbd657;
+    }
+
+    .second-row-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .second-row {
+        width: 85%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .second-row-first-box,
+    .second-row-second-box,
+    .second-row-third-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .second-row-heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .circle {
+        width: 2vw;
+        height: 2vw;
+        border-radius: 50%;
+        background-color: #fff;
+        margin-right: 4px;
+        box-shadow: 1px 0 #2ec5b6;
+        background-color: #2ec5b6;
+    }
+
+    .circle2 {
+        width: 2vw;
+        height: 2vw;
+        border-radius: 50%;
+        background-color: #fff;
+        margin-right: 4px;
+        box-shadow: 1px 0 #f15025;
+        background-color: #f15025;
+    }
+
+    .circle3 {
+        width: 2vw;
+        height: 2vw;
+        border-radius: 50%;
+        background-color: #fff;
+        margin-right: 4px;
+        box-shadow: 1px 0 #e7ab46;
+        background-color: #e7ab46;
+    }
+}
+
+.second-row-heading {
+    font-family: CopperPot, Helvetica, sans-serif;
+    font-size: 1.375rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.second-row-description {
+    font-family: SourceSansPro, Helvetica, sans-serif;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    color: #fff;
+
+}
